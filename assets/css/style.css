@@ -168,7 +168,9 @@ body {
     border-bottom: 0;
   }
   
-  .auth-image {
+  /*Class naming from Bootstrap for Responsive Image from link: https://getbootstrap.com/docs/4.3/content/images/#responsive-images*/
+  .img-fluid {
+    max-width: 100%;
     float: left;
     width: 200px;
     height: auto;
