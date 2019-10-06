@@ -39,7 +39,7 @@ li {
 /*Background-image came from: https://www.toptal.com/designers/subtlepatterns/page/8/, 
 Background-image coding came from: https://www.w3schools.com/css/css_background.asp*/
 
-.container {
+.container1 {
   background-image: url("../images/dust_scratches.png");
   width: 100%;
   height: 50%;
@@ -107,6 +107,7 @@ h3{
   height: 200px;
   width: 220px;
   padding: 20px;
+  
 }
 
 p {
