@@ -1,70 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <title>About | Maria Simoes</title>
-  <!--The following is the link to Boostrap that allows the browser to work with their stylings.-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/css/style.css">  
-</head>
-
-<body>
-   
-    <header id="mainhead">
-        <div class="container">
-            <a href="index.html" id="logo">Maria Simoes</a>
-            <!--This is Boostrap's coding for a Navbar with my changes from the link: https://getbootstrap.com/docs/4.0/components/navbar/ -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-            
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                  </li>
-                  <li>
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     
-                    </div>
-                  </li>
-                  
-                </ul>
-              </div>
-            </nav>
+<html lang="en-us">
+ 
+    <head>
+        <title>Portfolio About Me Page</title>
+          <!--The following is the link to Boostrap that allows the browser to work with their stylings.-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="../Bootstrap-Portfolio/assets/css/style.css">
+    </head>
+    <body>
+        <header>
+            <section id="main">
+                <h1>Maria Simoes</h1>
+            </section>
+            <!--Nav Bar from Bootstrap-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </header>
+ 
+ 
+        <div class="container"> 
+               
+                <section id="content">
+                    <h2>About Me</h2>
+                    <!--The following class/coding from Bootstrap allows the image to be responsive.-->
+                    <img class="img-fluid" src="assets/images/ProfilePic.jpg" alt="Responsive image">
+                    <p>Hello! My name is Maria Simoes. I am a New Hampshirite of the Lakes Region and a lake girl at heart! Having grown up on the lake for so long, it was natural that my first job was as a camp counselor. During this time, I worked with children starting at the ages of 7 and up at the Arts & Crafts and Drama Programs, while also being a "camp mom" helping kids who were homesick. This developed into a fondness for working with kids and led into my ten years in the field of teaching.</p>
+                    <p>A graduate of UNH, I hold both a Bachelor of Arts degree and a Master of Arts degree in Teaching (MAT) in the field of Secondary English teaching. As a teacher, I hold two certifications in both Elementary Education (grades k-8) and English Teaching (grades 6-12). During my first nine years as a teacher I taught 7th Grade English/Language Arts and then decided to try something new in my final year by working as a 5th grade teacher. </p>
+                    <p>My fondness for knowledge and a desire to continue my personal learning has spurned me onto my next adventure in web development. After years of watching students achieve their own dreams, I am hoping to seek out new ones for myself that take me out of the classroom and into a field where I look forward to collaborating with a variety of new people and new ideas!</p>
+                </section>
+                </section>
         </div>
-    </header>
-
-    <div id="main-container" class="container">
-        <section class="main-section">
-            <h1>About Me</h1>
-            <!--Class naming from Bootstrap for Responsive Image from link: https://getbootstrap.com/docs/4.3/content/images/#responsive-images -->
-            <img src="../Bootstrap-Portfolio/assets/images/ProfilePic.jpg" class="img-fluid" alt="Maria Simoes">
-
-            <p>Hello! My name is Maria Simoes. I am a New Hampshirite of the Lakes Region and a lake girl at heart! Having grown up on the lake for so long, it was natural that my first job was as a camp counselor. During this time, I worked with children starting at the ages of 7 and up at the Arts & Crafts and Drama Programs, while also being a "camp mom" helping kids who were homesick. This developed into a fondness for working with kids and led into my ten years in the field of teaching.</p>
-
-            <p>A graduate of UNH, I hold both a Bachelor of Arts degree and a Master of Arts degree in Teaching (MAT) in the field of Secondary English teaching. As a teacher, I hold two certifications in both Elementary Education (grades k-8) and English Teaching (grades 6-12). During my first nine years as a teacher I taught 7th Grade English/Language Arts and then decided to try something new in my final year by working as a 5th grade teacher.</p>
-
-            <p>My fondness for knowledge and a desire to continue my personal learning has spurned me onto my next adventure in web development. After years of watching students achieve their own dreams, I am hoping to seek out new ones for myself that take me out of the classroom and into a field where I look forward to collaborating with a variety of new people and new ideas!</p>
-
-        </section>
-    </div>
-    <footer>
-        <div class="container">
+ 
+        <!--Copyright symbol directions for creating the copyright symbol received from:https://www.rapidtables.com/web/html/html-codes/html-code-copyright.html -->
+        <footer>
             Copyright &copy;
-        </div>
-    </footer>
-</body>
+        </footer>
+    </body>
 </html>
